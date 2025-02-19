@@ -1,32 +1,34 @@
-# Cálculo de Áreas Deforestadas mediante Segmentación de Imágenes Satelitales
+# Calculation of Deforested Areas Using Satellite Image Segmentation  
 
-Este proyecto implementa un sistema para detectar áreas deforestadas en imágenes satelitales mediante técnicas de procesamiento de imágenes y segmentación. El objetivo principal es automatizar el análisis de imágenes para calcular la cantidad de área afectada por la deforestación.
+This project implements a system to detect deforested areas in satellite images using image processing and segmentation techniques. The main goal is to automate image analysis to calculate the amount of land affected by deforestation.  
 
-## Beneficios del Proyecto
+## Project Benefits  
 
-- **Monitoreo Automático**: Automatiza el proceso de detección de áreas deforestadas en grandes conjuntos de datos de imágenes satelitales.
-- **Análisis Eficiente**: Permite un análisis eficiente de regiones afectadas, ahorrando tiempo en comparación con métodos manuales.
-- **Visualización Informativa**: Ofrece visualizaciones claras y detalladas de las áreas deforestadas, facilitando el estudio y la toma de decisiones en proyectos de conservación y manejo de recursos naturales.
-- **Aplicación Práctica**: Útil para organizaciones medioambientales, gobiernos y proyectos de investigación que necesiten monitorear el impacto de la deforestación a lo largo del tiempo.
+- **Automated Monitoring**: Automates the detection of deforested areas in large satellite image datasets.  
+- **Efficient Analysis**: Enables efficient analysis of affected regions, saving time compared to manual methods.  
+- **Informative Visualization**: Provides clear and detailed visualizations of deforested areas, facilitating study and decision-making in conservation and resource management projects.  
+- **Practical Application**: Useful for environmental organizations, governments, and research projects that need to monitor the impact of deforestation over time.  
 
-## Requisitos
+## Requirements  
 
-- Python 3.x
-- OpenCV
-- NumPy
-- Matplotlib
-- SciPy
+- Python 3.x  
+- OpenCV  
+- NumPy  
+- Matplotlib  
+- SciPy  
 
-## Explicación del Proyecto
-Este proyecto está basado en el uso de técnicas avanzadas de segmentación de imágenes, específicamente diseñadas para detectar y medir áreas deforestadas. A partir de imágenes satelitales, el sistema identifica las áreas que han sufrido deforestación, calculando el área afectada en kilómetros cuadrados. Los pasos principales incluyen:
+## Project Explanation  
 
-- **Preprocesamiento de Imágenes:** Las imágenes satelitales se ajustan y normalizan para optimizar la precisión del modelo de segmentación.
-- **Segmentación:** Utilizando un enfoque de segmentación basado en técnicas de procesamiento de imágenes, se identifican las áreas de deforestación dentro de la imagen satelital.
-- **Cálculo de Áreas:** Una vez segmentadas las áreas afectadas, se calcula el área total utilizando métodos basados en la escala de la imagen satelital.
-- El sistema es capaz de procesar múltiples imágenes de forma automatizada, lo que permite el monitoreo constante de grandes áreas forestales y su cambio a lo largo del tiempo.
+This project is based on advanced image segmentation techniques specifically designed to detect and measure deforested areas. Using satellite images, the system identifies regions affected by deforestation and calculates the impacted area in square kilometers. The main steps include:  
 
-## Resultados
-El sistema genera los siguientes resultados:
+- **Image Preprocessing**: Satellite images are adjusted and normalized to optimize the accuracy of the segmentation model.  
+- **Segmentation**: Using an image processing-based segmentation approach, deforested areas are identified within the satellite image.  
+- **Area Calculation**: Once affected areas are segmented, the total area is calculated using methods based on the satellite image scale.  
+- The system can process multiple images automatically, enabling continuous monitoring of large forested areas and their changes over time.  
 
-- **Imágenes Procesadas:** Imágenes satelitales con las áreas deforestadas resaltadas visualmente para facilitar la interpretación.
-- **Cálculo del Área Afectada:** Proporciona el cálculo preciso del área total deforestada en kilómetros cuadrados, que es crucial para estudios medioambientales y la implementación de políticas.
+## Results  
+
+The system generates the following outputs:  
+
+- **Processed Images**: Satellite images with deforested areas visually highlighted for easier interpretation.  
+- **Affected Area Calculation**: Provides an accurate calculation of the total deforested area in square kilometers, crucial for environmental studies and policy implementation.  
