@@ -7,16 +7,8 @@ This project implements a system to detect deforested areas in satellite images 
 - **Automated Monitoring**: Automates the detection of deforested areas in large satellite image datasets.  
 - **Efficient Analysis**: Enables efficient analysis of affected regions, saving time compared to manual methods.  
 - **Informative Visualization**: Provides clear and detailed visualizations of deforested areas, facilitating study and decision-making in conservation and resource management projects.  
-- **Practical Application**: Useful for environmental organizations, governments, and research projects that need to monitor the impact of deforestation over time.  
-
-## Requirements  
-
-- Python 3.x  
-- OpenCV  
-- NumPy  
-- Matplotlib  
-- SciPy  
-
+- **Practical Application**: Useful for environmental organizations, governments, and research projects that need to monitor the impact of deforestation over time.
+  
 ## Project Explanation  
 
 This project is based on advanced image segmentation techniques specifically designed to detect and measure deforested areas. Using satellite images, the system identifies regions affected by deforestation and calculates the impacted area in square kilometers. The main steps include:  
