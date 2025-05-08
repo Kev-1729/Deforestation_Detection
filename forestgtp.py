@@ -70,9 +70,6 @@ class App(customtkinter.CTk):
         self.optionmenu_1.grid(row=0, column=0, padx=20, pady=(20, 10))
         self.optionmenu_2 = customtkinter.CTkButton(master=self.tabview, text="Area no deforestada", hover=False, fg_color="transparent", border_width=2, text_color=("gray10", "#DCE4EE"))
         self.optionmenu_2.grid(row=3, column=0, padx=20, pady=(20, 10))
-        # self.string_input_button = customtkinter.CTkButton(self.tabview.tab("CTkTabview"), text="Open CTkInputDialog",
-        #                                                    command=self.open_input_dialog_event)
-        # self.string_input_button.grid(row=2, column=0, padx=20, pady=(10, 10))
 
         # create slider and progressbar frame
         self.slider_progressbar_frame = customtkinter.CTkFrame(self, fg_color="transparent")
@@ -118,8 +115,6 @@ class App(customtkinter.CTk):
 
 
     def sidebar_button_event(self):
-        # Especificar los tipos de archivos, para elegir solo a las imágenes
-        # Label donde se presentará la imagen de entrada
         self.restart()
 
         path_image = filedialog.askopenfilename(filetypes = [
